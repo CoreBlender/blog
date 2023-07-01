@@ -1,0 +1,8 @@
+[build]
+  command= "./scripts/build.sh"
+  publish="build" # to CRA output 
+
+[build.environment]
+  NPM_FLAGS="--version" # disables npm install
+
+
