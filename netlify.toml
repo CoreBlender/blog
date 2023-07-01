@@ -1,5 +1,5 @@
 [build]
-  command= "sudo chmod +x ./scripts/build.sh && ./scripts/build.sh"
+  command= "chmod +x ./scripts/build.sh && ./scripts/build.sh"
   publish="build" # to CRA output 
 
 [build.environment]
