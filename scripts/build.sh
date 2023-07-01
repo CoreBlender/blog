@@ -2,10 +2,11 @@
 
 set -e
 curl -fsSL https://bun.sh/install | bash
-export PATH="/opt/buildhome/.bun/bin:$PATH"
+export "PATH=$BUN_INSTALL/bin:$PATH"
+
 bun --version
-bun upgrade
 bun install
+bun upgrade
 bun run build
 
 
