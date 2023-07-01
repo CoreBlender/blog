@@ -6,6 +6,7 @@ export PATH="/opt/buildhome/.bun/bin:$PATH"
 
 bun --version
 bun install
+bun upgrade
 bun run build
 
 
